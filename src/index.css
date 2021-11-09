@@ -1,0 +1,130 @@
+.thumb.align-self-center > img {
+  width: 60px;
+}
+
+/* carousel slider style start */
+
+.slick-slide > div {
+  margin: 0 30px;
+  /* max-width: 70%;
+  min-width: 200px; */
+}
+
+.slick-dots li.slick-active button:before {
+  color: orange !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+.slick-next {
+  right: 40px !important;
+  top: 92% !important;
+  z-index: 2 !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+.slick-prev {
+  left: unset !important;
+  right: 90px !important;
+  z-index: 2 !important;
+  width: 40px !important;
+  height: 40px !important;
+  top: 92% !important;
+}
+
+.fa-instagram {
+  color: #f08a59;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.login-wrapper .btn {
+  width: 180px;
+}
+
+.btn.btn-primary{
+  position:relative;
+}
+
+.error {
+  color: #b71c1c;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+
+.nodata {
+  font-size: 28px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.order-history {
+  position: relative;
+  min-height: 350px;
+}
+
+.conditionalOpen {
+  animation: conditionalOpen 0.8s forwards;
+
+  transform-origin: 50% 0%;
+}
+
+.badge.badge-primary {
+  width: 145px !important;
+}
+
+.no-products-found {
+  height: 100%;
+  display: flex;
+  font-size: 26px;
+  color: #080f49;
+  align-items: center;
+  justify-content: center;
+}
+
+.disable {
+  color: rgb(141, 137, 137) !important;
+  font-style: italic;
+  pointer-events: none;
+  background-color: #F0F0F5 !important;
+  border-color: #fff !important;
+}
+
+
+.loading {
+  width: 16px;
+  margin-left: 5px;
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.confirm-msg{
+  font-size:22px;
+  margin-top:10px;
+  color:#199b69
+}
+
+
+.quantity-input{
+padding-left: 0px !important;
+}
+
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+@keyframes conditionalOpen {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}

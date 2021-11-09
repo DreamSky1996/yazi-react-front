@@ -1,0 +1,35 @@
+.landing .slick-arrow.slick-next {
+  display: none !important;
+}
+.landing .slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.landing .slick-dots {
+  text-align: end !important;
+  top: -30px !important;
+  right: 44px !important;
+  height: 20px !important;
+}
+
+.landing .slick-slide > div {
+  margin: 0px 5px !important;
+}
+
+.landing .trending-carousel .item {
+  width: 285px;
+  height: 380px;
+  cursor: pointer;
+}
+
+.add {
+  width: 108px;
+  height: 33px;
+}
+.landing .loading {
+  margin-left: 0;
+
+  right: 0;
+  left: 0;
+  margin: auto;
+}

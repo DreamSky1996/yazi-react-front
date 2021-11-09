@@ -1,0 +1,85 @@
+.logout:hover {
+  color: #f08a59;
+  text-decoration: none;
+}
+
+.logout {
+  color: #080f49;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.top-header .logo {
+  width: 150px;
+}
+
+.stellarnav {
+  position: relative;
+  width: auto;
+  z-index: 9900;
+  line-height: normal;
+  margin-left: auto;
+  margin-top:5px;
+}
+
+.stellarnav > ul > li > a {
+  padding: 15px;
+  position: relative;
+  color: #080f49;
+}
+
+.top-header ul.links {
+  margin: 0 0 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.top-header ul.links li {
+  float: left;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.stellarnav > ul > li > a:hover {
+  text-decoration: none;
+  color: #f08a59;
+  
+}
+
+
+.stellarnav > ul > li > a:hover:before, .stellarnav > ul > li:hover > a:before, .stellarnav > ul > li.current-menu-item > a:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+
+.stellarnav > ul > li > a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #f08a59;
+  opacity: 0;
+  -moz-transition: all .3s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .top-header .logo {
+    width: 100px;
+    order: 1;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .top-header .logo {
+    width: 100px;
+    order: 1;
+  }
+}

@@ -1,0 +1,34 @@
+.dropzone_box {
+  cursor: pointer;
+}
+
+.add-product .trending .content .inner-content:hover {
+  border-color: #fff;
+}
+
+.add-product .trending .content .inner-content .full-img {
+  min-width: initial;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.add-product .trending .content .inner-content .embed-responsive-1by1:before {
+  padding-top: 0px !important;
+}
+
+.add-product .embed-responsive-1by1::before {
+  padding-top: 0px !important;
+}
+
+.add-product .d-block.mb-2{
+  margin-left:5px;
+}
+
+.add-product .trending .content .inner-content .full-img img {
+  height:440px;
+}
+
+.add-product .slick-slide > div{
+  margin: 0 5px !important;
+}

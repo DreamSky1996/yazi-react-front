@@ -1,0 +1,59 @@
+/* #Media Queries
+================================================== */
+/* END__ */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+} 
+/* END__ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.container{ padding:0 25px;}
+.subscribe{ max-width:inherit;  margin:40px 0 20px;}
+.subscribe .row [class*="col-"] + [class*="col-"]{ margin-top:20px;}
+.trending{ padding:50px 0 0 0;}
+.trending .container .owl-dots{ position:relative; top:auto; left:auto; right:auto; margin-top:30px; text-align:center;}
+.trending .container .owl-dots .owl-dot{ margin:0 10px;}
+.bottom-content{ padding-top:50px;}
+.bottom-content .first-content{ padding:0;}
+.bottom-content .first-content .col-lg-8 .row{ margin-top:25px}
+.top-header{ padding-top:100px;}
+.sidebar-content{ padding:70px 25px;}
+.top-header ul{ font-size:14px;}
+.map{ height:400px;}
+.contact-form{ margin-top:30px;}
+} 
+/* END__ */
+
+@media only screen and (max-width: 767px) {
+body, .form-control, .btn , .dropdown-menu, .input-group-text, .popover-header{ font-size:1rem;}
+h1, .h1 {font-size:1.875rem;}
+h2, .h2 {font-size:1.6875rem;}
+h3, .h3 {font-size:1.4375rem;}
+h4, .h4 {font-size:1.25rem;}
+h5, .h5 {font-size:1.125rem;}
+h6, .h6 {font-size:1rem;}
+.container{ padding:0 25px;}
+.subscribe{ max-width:inherit;  margin:40px 0 20px;}
+.subscribe .row [class*="col-"] + [class*="col-"]{ margin-top:20px;}
+.trending{ padding:50px 0 0 0;}
+.trending .container .owl-dots{ position:relative; top:auto; left:auto; right:auto; margin-top:30px; text-align:center;}
+.trending .container .owl-dots .owl-dot{ margin:0 10px;}
+.bottom-content{ padding-top:50px;}
+.bottom-content .first-content{ padding:0;}
+.bottom-content .first-content .col-lg-8 .row{ margin-top:25px}
+.top-header{ padding-top:100px;}
+.sidebar-content{ padding:70px 25px;}
+.top-header ul{ font-size:14px;}
+.map{ height:400px;}
+.contact-form{ margin-top:30px;}
+.pp-lg{ padding:20px;}
+.pp-lg .user{ width:50px;}
+.order-history-list .btn ul{ text-align:left;}
+.order-history-list [class*="col-"] + [class*="col-"]{ margin-top:20px;}
+} 
+/* END__ */
+
+@media (max-width: 480px) {
+} 
+/* END__ */
+

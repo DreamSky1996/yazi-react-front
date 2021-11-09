@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-MediumItalic.eot');
+    src: url('FuturaBT-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('FuturaBT-MediumItalic.woff') format('woff'),
+        url('FuturaBT-MediumItalic.ttf') format('truetype'),
+        url('FuturaBT-MediumItalic.svg#FuturaBT-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-Book.eot');
+    src: url('FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Book.woff2') format('woff2'),
+        url('FuturaBT-Book.woff') format('woff'),
+        url('FuturaBT-Book.ttf') format('truetype'),
+        url('FuturaBT-Book.svg#FuturaBT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jost*';
+    src: url('Jost-BoldItalic.eot');
+    src: url('Jost-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Jost-BoldItalic.woff2') format('woff2'),
+        url('Jost-BoldItalic.woff') format('woff'),
+        url('Jost-BoldItalic.ttf') format('truetype'),
+        url('Jost-BoldItalic.svg#Jost-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-MediumItalic_1.eot');
+    src: url('FuturaBT-MediumItalic_1.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-MediumItalic_1.woff2') format('woff2'),
+        url('FuturaBT-MediumItalic_1.woff') format('woff'),
+        url('FuturaBT-MediumItalic_1.ttf') format('truetype'),
+        url('FuturaBT-MediumItalic_1.svg#FuturaBT-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+

@@ -1,0 +1,83 @@
+.landing .slick-arrow.slick-next {
+  display: none !important;
+}
+.landing .slick-arrow.slick-prev {
+  display: none !important;
+}
+
+.landing .slick-dots {
+  text-align: end !important;
+  top: -30px !important;
+  right: 44px !important;
+  height: 20px !important;
+}
+
+.landing .slick-slide > div {
+  margin: 0px 5px !important;
+}
+
+.landing .trending-carousel .item {
+  width: 285px;
+  height: 380px;
+  cursor: pointer;
+}
+
+.add {
+  width: 108px;
+  height: 33px;
+}
+.landing .loading {
+  margin-left: 0;
+
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+
+.overlay {
+  display: none !important;
+}
+
+/* .awssld__wrapper {
+  border-radius: 20px 60px 20px 60px !important;
+} */
+
+/* .awssld {
+  --slider-height-percentage: 50% !important;
+} */
+
+/* .awssld__bullets {
+  position: absolute;
+  bottom: 25px !important;
+  right: 25px !important;
+  z-index: 100 !important;
+  width: auto !important;
+} */
+
+/* .awssld__bullets button:focus {
+  outline: none !important;
+} */
+
+/* .carousel-caption {
+  margin: 0 !important;
+  padding: 0 !important;
+  left: 40px !important;
+  right: 40px !important;
+  top: 50% !important;
+  -webkit-transform: translateY(-50%) !important;
+  -ms-transform: translateY(-50%) !important;
+  transform: translateY(-50%) !important;
+  bottom: auto !important;
+  color: #fff !important;
+  text-align: left !important;
+}
+.awssld__bullets .awssld__bullets--active:hover {
+}
+
+.awssld__bullets button {
+ 
+}
+.awssld__bullets .awssld__bullets--active {
+
+} */

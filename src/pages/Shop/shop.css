@@ -1,0 +1,7 @@
+.trending.product-list{
+min-height: 305px;
+}
+
+.product-list .loader{
+margin-top:0px !important;
+}
